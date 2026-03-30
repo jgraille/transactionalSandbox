@@ -19,5 +19,5 @@ graph LR
     F --> E
 ```
 
-*Note: The `Feedback & Iterate` points back to the `Implement` because you have to have observe if the tasks are correctly done*
+*Note: The `Feedback & Iterate` points back to the `Implement` because you have to observe if the tasks are correctly done*
 
