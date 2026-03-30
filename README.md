@@ -10,10 +10,10 @@ The framework can be represented as follow:
 
 ```mermaid
 graph LR
-    A[Research] --> B[Plan]
+    A[Research.md] --> B[Plan.md]
     B --> C[Annotate]
     C -->|Repeat 1-6 times| C
-    C --> D[Todo List]
+    C --> D[Todo List added in Plan.md]
     D --> E[Implement]
     E --> F[Feedback & Iterate]
     F --> E
