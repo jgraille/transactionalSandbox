@@ -118,7 +118,7 @@ print("-" * 47)
 for col in df.columns:
     non_null = df[col].notna().sum()
     pct = non_null / total_rows * 100
-    flag = "" if pct == 100 else "  ⚠️"
+    flag = "" if pct == 100 else "  "
     print(f"{col:<25} {non_null:>10,} {pct:>9.2f}%{flag}")
 ```
 
