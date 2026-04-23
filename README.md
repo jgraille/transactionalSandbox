@@ -9,13 +9,13 @@ transactionalSandbox/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
-├── research.md               # Entry point Research notes and references
-├── plan.md                   # Project plan and todo list
+├── research.md               # Entry point
+├── plan.md                   # Feature to implement
 └── bankTransactions/
-    ├── requirements.txt      # Python dependencies
-    ├── prelims.ipynb         # Data preprocessing and fraud labeling notebook
-    ├── bank_transactions_data_2_augmented_clean_2.csv         # Raw dataset
-    └── bank_transactions_data_2_augmented_clean_2_labeled.csv # Labeled dataset
+    ├── requirements.txt
+    ├── prelims.ipynb
+    ├── bank_transactions_data_2_augmented_clean_2.csv
+    └── bank_transactions_data_2_augmented_clean_2_labeled.csv
 ```
 
 
