@@ -2,8 +2,24 @@
 
 A place to test different approaches for transactional prediction purpose.
 
+## Repository Structure
 
-# Vibe Coding
+```
+transactionalSandbox/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── research.md               # Entry point Research notes and references
+├── plan.md                   # Project plan and todo list
+└── bankTransactions/
+    ├── requirements.txt      # Python dependencies
+    ├── prelims.ipynb         # Data preprocessing and fraud labeling notebook
+    ├── bank_transactions_data_2_augmented_clean_2.csv         # Raw dataset
+    └── bank_transactions_data_2_augmented_clean_2_labeled.csv # Labeled dataset
+```
+
+
+## Vibe Coding
 
 This repository uses the [Boris Tane](https://boristane.com/blog/how-i-use-claude-code/) framework to conduct the analysis. The approach involves using AI agents that generate code under the supervision of a human (you), with all rules defined in configuration files.
 
