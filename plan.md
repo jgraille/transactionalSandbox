@@ -29,11 +29,11 @@
 Install the required packages into the `baTr` venv:
 
 ```bash
+cd banTransactions
+python3.11 -m  venv baTr
 source bankTransactions/baTr/bin/activate
 pip install pandas numpy scikit-learn
 ```
-
-All code in this plan targets **Python 3.11** and uses only **pandas** and **numpy** (plus stdlib). Scikit-learn is needed later for modeling but not for the labeling itself.
 
 ---
 
